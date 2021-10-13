@@ -264,11 +264,11 @@ footer{
 }
 
 .social-networks a{
-    color: whitesmoke;
+    color: white;
 }
 
 .social-networks i{
     font-size: 160%;
-    margin: 1%;
-    padding: 1%;
+    justify-content: space-evenly;
+    margin: 15px 3%;
 }
