@@ -305,7 +305,7 @@ footer{
 }
 /*the team*/
 .the-team{
-    background-color: black;
+    background-image: url(/assets/images/theteam-background-image.png);
     height: 600px;
     display: grid;
     grid-template-columns: repeat(auto-fit,25%);
@@ -333,7 +333,7 @@ footer{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background: #14213D;
+    background: black;
     color: white;
     text-align: center;
     padding: 1rem;
