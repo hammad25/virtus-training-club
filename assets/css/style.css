@@ -243,3 +243,32 @@ i.far.fa-heart {
 #club-virtus p{
     padding-top: 40px;
 }
+/* footer */
+
+footer{
+    background-color: black;
+    height: 60px;
+}
+
+.fab, .far {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks a{
+    color: whitesmoke;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+}
