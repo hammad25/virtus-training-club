@@ -1,5 +1,5 @@
 # Virtus Training
-In this project I have created a new website for a functional fitness training club in the city of Coventry. The website is designed to encompass the love of fitness with safe practices for healthy joints and over-all dynamic mobility that often is lacking in static weight-lifting. The website emphasises that all the trainers at Virtus are joint/mobility specilists so programs/classes will include fun and challanging dynamic movements. 
+In this project I have created a new website for a functional fitness training club in the city of London. The website is designed to encompass the love of fitness with safe practices for healthy joints and over-all dynamic mobility that often is lacking in static weight-lifting. The website emphasises that all the trainers at Virtus are joint/mobility specilists so programs/classes will include fun and challanging dynamic movements. 
 
 The site will target those individuals who seek to establish a community of fitness lovers that do not want to compromise on their joint health/mobility in the long run whilst working out. Virtus training will be usefull for all users who are new to functional fitness and are looking for more information as well as those fitness ethusiasts looking for a local funtional fitness community to be apart of.
 
