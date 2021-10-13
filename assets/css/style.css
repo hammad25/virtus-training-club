@@ -136,3 +136,30 @@ nav{
     text-transform: uppercase;
     margin: 20px 117px;
 }
+/*Our mission*/
+.our-mission{
+    background-color: black;
+    margin-top: 600px;
+    height:400px ;
+}
+
+#mission-center{
+    padding: 50px 47px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#mission-center h2{
+    padding: 20px;
+}
+
+#mission-center p{
+    margin-top: 0px;
+}
+
+#mission-center button{
+    margin: 20px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+}
