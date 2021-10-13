@@ -28,3 +28,45 @@ h1, h2 {
     padding: 20px;
     margin-left: 20px;
 }
+/*navigation links */
+
+nav{
+    background-color: black;
+    height:60px;
+}
+
+#menu{
+    font-size: 100%;
+    float: right;
+}
+
+#menu, #logo{
+    line-height: 20px;
+}
+
+#menu li{
+    display: flex;   
+    justify-content: space-around; 
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    padding:20px 40px;
+    align-items: center;
+}
+
+#menu a{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: none;
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover{
+    color: #FCA311;
+}
+
+.active{
+    color: #FCA311;
+    border-bottom: 1px solid #FCA311;
+}
