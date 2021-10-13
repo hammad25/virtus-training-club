@@ -10,3 +10,21 @@ body{
     color: grey;
 
 }
+/* headings and logo */
+
+h1, h2 {
+    font-family: 'DM Serif Display', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:whitesmoke;
+}
+
+#logo{
+    float: left;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-size: 150%;
+    padding: 20px;
+    margin-left: 20px;
+}
