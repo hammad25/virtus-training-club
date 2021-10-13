@@ -163,3 +163,83 @@ nav{
     padding: 20px 30px;
     text-transform: uppercase;
 }
+/*club Virtus*/
+#club-virtus{
+    background-image: url(/assets/images/club-virtus-background-image.png);
+    height: 600px;
+    display: flex;
+    color: whitesmoke;
+}
+
+#left-about{
+    margin: 100px 20px;
+    height: 380px;
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+#right-about{
+    margin: 100px 20px;
+    padding-top: 30px;
+    height: 380px;
+    width: 30%;
+    float: right;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#center-about{
+    padding-top: 30px;
+    height: 380px;
+    width: 30%;
+    margin: 100px auto;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.our-team{
+    text-align: center;
+    margin: 20px;
+}
+
+.our-values{
+    text-align: center;
+    margin: 20px;
+}
+
+.fab, .far {
+    font-weight: 400;
+    font-size: 100px;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+i.far.fa-heart {
+    font-size: 100px;
+}
+
+.our-training{
+    text-align: center;
+    margin: 20px;
+}
+
+#club-virtus button{
+    background-color: white;
+    margin-top: 50px;
+    padding: 10px 40px;
+}
+
+#club-virtus h2{
+    padding-bottom: 20px;
+}
+
+#club-virtus p{
+    padding-top: 40px;
+}
