@@ -277,10 +277,10 @@ footer{
     background: url(/assets/images/training-background-image.png) no-repeat center center;
     color: white;
     height: 400px;
-    opacity: 0.9;
     width: 100%;
     background-position: center;
     background-size: cover;
+    background-color: rgba(83, 83, 83, 0.9);
 }
 .overlay-aboutus{
     position: absolute;
@@ -427,6 +427,19 @@ footer{
     margin: 0px;
     height: 60px;
     padding-top: 15px;
+}
+
+#mobility div{
+    color: white;
+    background-color: rgba(83, 83, 83, 0.3);
+    width: 33.3%;
+    height: 400px;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+
 }
 
 
