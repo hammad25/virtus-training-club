@@ -19,3 +19,33 @@ The site will target those individuals who seek to establish a community of fitn
         * Should be able to gain an understanding of the core values of the traing club.
         * Should be able to access social media platforms and engage with the broader community.
         <hr>
+
+# Design
+## Layout:
+
+- The layout is clean and minimalistic, giving it an elegant high end user experience. Pops of color to give the website some engery but still keeping inline with the luxury brand. The flow of the pages is well thought out keeping user experience at the center. The landing page garbs the users attention, gives breif information on the purpose of the website and its core values. 
+
+The training pages, lays out the trainers info, programs and mobility classes offered then finally moving on to the sign up page. 
+
+
+
+## Typography
+* I used a combination of different styles of font to **emphasize** headings and categories. My main logo font is DM Serif Display. It gives the website a grand theme throught out the user experience.
+
+![logo](assets/images/readme-logo.png)
+
+* The hero video of my website features a bold statement in Arial Narrow Bold to stand out immedietly to the user and engage them from the start of the website. 
+
+![logo](assets/images/readme-herovideo.png)
+
+* Any other text that was used throughout the site has a font of 'lato'. I chose this font because it has a minimalistic and mordern feel to it.
+
+![logo](assets/images/readme-lato.png)
+
+## Colour Scheme 
+
+![design](assets/images/readme-color-scheme.png)
+
+- The site's primary colours are black and white with accents of orange,oxford blue and platinum. The above image shows the original colour section for the site. All colours were picked and matched from [coolors.co](https://coolors.co/).
+
+- The use of these colors was to give the website a luxury high-end feel to it while keeping everything minimal and chic and also being readable to all users.
