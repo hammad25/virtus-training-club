@@ -129,7 +129,7 @@ nav{
 
 .text button{
     background-color: #FCA311;
-    color:white;
+    color:black;
     padding: 15px 46px;
     font-family: lato;
     font-size: x-small;
@@ -165,10 +165,14 @@ nav{
 }
 /*club Virtus*/
 #club-virtus{
-    background-image: url(/assets/images/club-virtus-background-image.png);
+    background-image: url(/assets/images/2_GYM.jpeg);
     height: 600px;
     display: flex;
     color: whitesmoke;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
 }
 
 #left-about{
@@ -274,13 +278,16 @@ footer{
 }
 /* Training section*/
 .about-us{
-    background: url(/assets/images/training-background-image.png) no-repeat center center;
+    background: url(/assets/images/IMG_3090.JPG) no-repeat center center;
     color: white;
     height: 400px;
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-color: rgba(83, 83, 83, 0.9);
+    background-color: rgba(44, 44, 44, 0.3);
+    background-size: cover;
+    background-position: center;
+    
 }
 .overlay-aboutus{
     position: absolute;
@@ -288,12 +295,13 @@ footer{
     left: 0;
     width: 100%;
     height: 400px;
-    background: rgb(83, 83, 83);
+    background-color: rgba(83, 83, 83, 0.3);
     mix-blend-mode: overlay;
 }
 .about-us h2{
     color: white;
-    padding: 60px 100px;
+    padding-top: 120px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -307,7 +315,7 @@ footer{
 }
 /*the team*/
 .the-team{
-    background-image: url(/assets/images/training-bg.JPG);
+    background-image: url(/assets/images/VT-club.jpeg);
     width: 100%;
     height: 1200px;
     display: grid;
@@ -349,6 +357,10 @@ footer{
     width: 200px;
     height: auto;
     margin-left: 15%;
+}
+
+.trainer-card p{
+    font-size: 20px;
 }
 
 /* Programs*/
@@ -394,7 +406,7 @@ footer{
     padding-top: -12px;
     position: absolute;
     width: 184px;
-    margin-left: 40%;
+    margin-left: 43%;
     font-size: 15px;
 }
 
@@ -411,11 +423,12 @@ footer{
 
 /*Mobility timings*/
 #mobility{
-    background-image: url(../images/mobility-timing.png);
+    background-image: url(../images/Mind-and-Body@2x.jpeg);
     height: 400px;
     width: 100%;
     background-size: cover;
     background-position: center;
+    
 
 }
 .mobility-div{
