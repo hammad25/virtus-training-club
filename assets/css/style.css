@@ -336,7 +336,6 @@ footer{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background: black;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -395,7 +394,7 @@ footer{
     padding-top: -12px;
     position: absolute;
     width: 184px;
-    margin-left: 43%;
+    margin-left: 40%;
     font-size: 15px;
 }
 
@@ -439,6 +438,7 @@ footer{
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    padding-top: 110px;
 
 }
 
