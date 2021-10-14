@@ -49,3 +49,25 @@ The training pages, lays out the trainers info, programs and mobility classes of
 - The site's primary colours are black and white with accents of orange,oxford blue and platinum. The above image shows the original colour section for the site. All colours were picked and matched from [coolors.co](https://coolors.co/).
 
 - The use of these colors was to give the website a luxury high-end feel to it while keeping everything minimal and chic and also being readable to all users.
+
+# Wireframes 
+
+Primary mockups of my wireframes.
+
+## Index.html 
+
+![Index-Page](assets/images/readme-index.html.png)
+
+The home page sets the tone for the website.Providing snipets of information while providing buttons to navigate users to other sections of the website for more information.
+
+## Training.html 
+
+![Training-Page](assets/images/readme-training.html.png)
+
+The training page, is presented in 4 sections. An over view of what the website offers.The team of trainers available.The types of funtional fitness programs on offer.Lastly the mobility classes and timings on offer.
+
+During development I decided to display more information on each of the programs offered when the user hovers of the program cards.
+
+## Phone And tablet Devices 
+
+![phone/tablet](assets/images/readme-iphone-tablet.png)
