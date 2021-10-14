@@ -279,6 +279,8 @@ footer{
     height: 400px;
     opacity: 0.9;
     width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 .overlay-aboutus{
     position: absolute;
@@ -407,4 +409,24 @@ footer{
 .program-section h3{
     padding-top: 46px;
 }
+
+/*Mobility timings*/
+#mobility{
+    background-image: url(../images/mobility-timing.png);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.mobility-div{
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    color: #FCA311;
+    margin: 0px;
+    height: 60px;
+    padding-top: 15px;
+}
+
 
