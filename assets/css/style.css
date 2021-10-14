@@ -368,8 +368,7 @@ footer{
     width: 385%;
     margin-left: 30px;
 }
-
-.program-card-sports{
+.program-card{
     box-shadow: 0px 2px 8px 0px #e5e5e5;
     width: 80%;
     max-width: 368px;
@@ -377,52 +376,6 @@ footer{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-image:url(/assets/images/sports-conditioning.png);
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    height: 268px;
-    opacity: 0.95;
-}
-.program-card-strength{
-    box-shadow: 0px 2px 8px 0px #e5e5e5;
-    width: 80%;
-    max-width: 368px;
-    margin: 82px 39px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    background-image:url(/assets/images/strength-training.png);
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    height: 268px;
-    opacity: 0.95;
-}
-.program-card-fitness{
-    box-shadow: 0px 2px 8px 0px #e5e5e5;
-    width: 80%;
-    max-width: 368px;
-    margin: 82px 39px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    background-image:url(/assets/images/fitness-enhancement.png);
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    height: 268px;
-    opacity: 0.95;
-}
-.program-card-rehab{
-    box-shadow: 0px 2px 8px 0px #e5e5e5;
-    width: 80%;
-    max-width: 368px;
-    margin: 82px 39px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    background-image:url(/assets/images/rehab.png);
     color: white;
     text-align: center;
     padding: 1rem;
@@ -444,7 +397,14 @@ footer{
     font-size: 15px;
 }
 
+.program-section i {
+    font-size: 53px;
+    padding-top: 36px;
+    padding-bottom: 20px;
+}
+}
+
 .program-section h3{
-    padding-top: 100px;
+    padding-top: 46px;
 }
 
