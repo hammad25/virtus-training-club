@@ -1,60 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-body{ 
-    font-family:'lato', sans-serif;
+body {
+    font-family: 'lato', sans-serif;
     font-weight: 200;
     color: grey;
 
 }
+
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'DM Serif Display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
-#logo{
+#logo {
     float: left;
-    color:white;
-    text-transform:uppercase;
+    color: white;
+    text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 150%;
     padding: 20px;
     margin-left: 20px;
 }
+
 /*navigation links */
 
-nav{
+nav {
     background-color: black;
-    height:60px;
+    height: 60px;
 }
 
-#menu{
+#menu {
     font-size: 100%;
     float: right;
 }
 
-#menu, #logo{
+#menu,
+#logo {
     line-height: 20px;
 }
 
-#menu li{
-    display: flex;   
-    justify-content: space-around; 
+#menu li {
+    display: flex;
+    justify-content: space-around;
     display: inline-block;
     list-style-type: none;
     margin-right: 20px;
-    padding:20px 40px;
+    padding: 20px 40px;
     align-items: center;
 }
 
-#menu a{
+#menu a {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: none;
@@ -62,34 +68,35 @@ nav{
     color: white;
 }
 
-#menu a:hover{
+#menu a:hover {
     color: #FCA311;
 }
 
-.active{
+.active {
     color: #FCA311;
     border-bottom: 1px solid #FCA311;
 }
+
 /* landing page*/
-.hero-video{
+.hero-video {
     margin: 0;
     padding: 0;
 }
 
-.hero-video{
+.hero-video {
     position: absolute;
     height: 600px;
     width: 100%;
     display: flex;
-    align-items: center; 
-    color:white;
-    z-index:2;
+    align-items: center;
+    color: white;
+    z-index: 2;
 
 }
 
-.hero-video video{
+.hero-video video {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 600px;
@@ -97,9 +104,9 @@ nav{
     opacity: 0.9;
 }
 
-.overlay{
+.overlay {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 600px;
@@ -107,13 +114,13 @@ nav{
     mix-blend-mode: overlay;
 }
 
-.text{
+.text {
     position: relative;
     padding-left: 20px;
     z-index: 10;
 }
 
-.text h2{
+.text h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5em;
     font-weight: 700;
@@ -122,49 +129,51 @@ nav{
 
 }
 
-.text h4{
+.text h4 {
     text-transform: uppercase;
     padding-left: 40px;
 }
 
-.text button{
+.text button {
     background-color: #FCA311;
-    color:black;
+    color: black;
     padding: 15px 46px;
     font-family: lato;
     font-size: x-small;
     text-transform: uppercase;
     margin: 20px 117px;
 }
+
 /*Our mission*/
-.our-mission{
+.our-mission {
     background-color: black;
     margin-top: 600px;
-    height:400px ;
+    height: 400px;
 }
 
-#mission-center{
+#mission-center {
     padding: 50px 47px;
     text-align: center;
     text-transform: uppercase;
     color: white;
 }
 
-#mission-center h2{
+#mission-center h2 {
     padding: 20px;
 }
 
-#mission-center p{
+#mission-center p {
     margin-top: 0px;
 }
 
-#mission-center button{
+#mission-center button {
     margin: 20px;
     padding: 20px 30px;
     text-transform: uppercase;
 }
+
 /*club Virtus*/
-#club-virtus{
+#club-virtus {
     background-image: url(/assets/images/2_GYM.jpeg);
     height: 600px;
     display: flex;
@@ -172,10 +181,10 @@ nav{
     width: 100%;
     background-size: cover;
     background-position: center;
-    
+
 }
 
-#left-about{
+#left-about {
     margin: 100px 20px;
     height: 380px;
     padding-top: 30px;
@@ -186,7 +195,7 @@ nav{
 
 }
 
-#right-about{
+#right-about {
     margin: 100px 20px;
     padding-top: 30px;
     height: 380px;
@@ -196,7 +205,7 @@ nav{
     opacity: 0.8;
 }
 
-#center-about{
+#center-about {
     padding-top: 30px;
     height: 380px;
     width: 30%;
@@ -205,22 +214,24 @@ nav{
     opacity: 0.8;
 }
 
-.our-team{
+.our-team {
     text-align: center;
     margin: 20px;
 }
 
-.our-values{
+.our-values {
     text-align: center;
     margin: 20px;
 }
 
-.fab, .far {
+.fab,
+.far {
     font-weight: 400;
     font-size: 100px;
 }
 
-.fa, .fas {
+.fa,
+.fas {
     font-weight: 900;
     font-size: 100px;
 }
@@ -229,55 +240,58 @@ i.far.fa-heart {
     font-size: 100px;
 }
 
-.our-training{
+.our-training {
     text-align: center;
     margin: 20px;
 }
 
-#club-virtus button{
+#club-virtus button {
     background-color: #FCA311;
     margin-top: 50px;
     padding: 10px 40px;
 }
 
-#club-virtus h2{
+#club-virtus h2 {
     padding-bottom: 20px;
 }
 
-#club-virtus p{
+#club-virtus p {
     padding-top: 40px;
 }
+
 /* footer */
 
-footer{
+footer {
     background-color: black;
     height: 60px;
 }
 
-.fab, .far {
+.fab,
+.far {
     font-weight: 400;
     font-size: 30px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks a{
+.social-networks a {
     color: white;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     justify-content: space-evenly;
     margin: 15px 3%;
 }
+
 /* Training section*/
-.about-us{
+.about-us {
     background: url(/assets/images/IMG_3090.JPG) no-repeat center center;
     color: white;
     height: 400px;
@@ -287,25 +301,27 @@ footer{
     background-color: rgba(44, 44, 44, 0.3);
     background-size: cover;
     background-position: center;
-    
+
 }
-.overlay-aboutus{
+
+.overlay-aboutus {
     position: absolute;
-    top:60px;
+    top: 60px;
     left: 0;
     width: 100%;
     height: 400px;
     background-color: rgba(83, 83, 83, 0.3);
     mix-blend-mode: overlay;
 }
-.about-us h2{
+
+.about-us h2 {
     color: white;
     padding-top: 120px;
     padding-bottom: 20px;
     text-align: center;
 }
 
-#about-us-center{
+#about-us-center {
     padding: 0px 130px;
     text-align: center;
     line-height: 40px;
@@ -313,13 +329,14 @@ footer{
     font-weight: 200px;
     font-size: 20px;
 }
+
 /*the team*/
-.the-team{
+.the-team {
     background-image: url(/assets/images/VT-club.jpeg);
     width: 100%;
     height: 1200px;
     display: grid;
-    grid-template-columns: repeat(auto-fit,25%);
+    grid-template-columns: repeat(auto-fit, 25%);
     align-self: flex-start;
     justify-content: space-evenly;
     background-repeat: no-repeat;
@@ -327,7 +344,8 @@ footer{
     background-position: center;
     background-size: cover;
 }
-.team-div{
+
+.team-div {
     background-color: black;
     text-align: center;
     text-decoration: underline;
@@ -336,7 +354,8 @@ footer{
     height: 60px;
     padding-top: 15px;
 }
-.trainer-card{
+
+.trainer-card {
     box-shadow: 0px 2px 8px 0px #E5E5E5;
     width: 70%;
     max-width: 400px;
@@ -350,6 +369,7 @@ footer{
     height: 400px;
     opacity: 0.95;
 }
+
 .profile-img {
     text-align: center;
     border-radius: 50%;
@@ -359,12 +379,12 @@ footer{
     margin-left: 15%;
 }
 
-.trainer-card p{
+.trainer-card p {
     font-size: 20px;
 }
 
 /* Programs*/
-.programs-div{
+.programs-div {
     background-color: black;
     text-align: center;
     text-decoration: underline;
@@ -375,13 +395,15 @@ footer{
     position: absolute;
     width: 100%;
 }
-.program-section{
+
+.program-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit,25%);
+    grid-template-columns: repeat(auto-fit, 25%);
     width: 385%;
     margin-left: 30px;
 }
-.program-card{
+
+.program-card {
     box-shadow: 0px 2px 8px 0px #e5e5e5;
     width: 80%;
     max-width: 368px;
@@ -396,7 +418,7 @@ footer{
     opacity: 0.95;
 }
 
-.program-section button{
+.program-section button {
     background-color: #fca311;
     text-align: center;
     text-decoration: underline;
@@ -417,21 +439,22 @@ footer{
 }
 }
 
-.program-section h3{
+.program-section h3 {
     padding-top: 46px;
 }
 
 /*Mobility timings*/
-#mobility{
+#mobility {
     background-image: url(../images/Mind-and-Body@2x.jpeg);
     height: 400px;
     width: 100%;
     background-size: cover;
     background-position: center;
-    
+
 
 }
-.mobility-div{
+
+.mobility-div {
     background-color: black;
     text-align: center;
     text-decoration: underline;
@@ -441,7 +464,7 @@ footer{
     padding-top: 15px;
 }
 
-#mobility div{
+#mobility div {
     color: white;
     background-color: rgba(83, 83, 83, 0.3);
     width: 33.3%;
@@ -455,14 +478,19 @@ footer{
 }
 
 /* Join us page*/
-.progress{
+.progress {
     height: 400px;
     background-color: black;
     text-align: center;
 }
 
-.progress h2{
-    padding-top: 7%;
+.form-heading{
+    text-align: center;
+    padding-top: 195px;
+}
+
+.progress h2 {
+    padding-top: 5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5em;
     font-weight: 700;
@@ -470,10 +498,61 @@ footer{
     letter-spacing: 10px;
 }
 
-.form{
+.form {
     background-image: url(../images/Combat@2x.jpeg);
     height: 880px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: rgba(83, 83, 83, 0.3);
 }
+
+.signup-details {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 36%;
+    margin: 57px 31%;
+    text-transform: uppercase;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover{
+    background-color: #FCA311;
+}
+
+.birthday-div{
+    padding: 20px;
+
+}
+
+.boxes h2{
+    color: white;
+}
+.boxes{
+    color: black;
+}
+
+.join-button{
+    margin-top: 20px;
+    padding: 16px 69px;
+    background-color: white;
+    text-transform: uppercase;
+}
+.join-button:hover{
+    background-color: #FCA311;
+}
+

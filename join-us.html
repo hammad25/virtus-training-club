@@ -43,10 +43,13 @@
     </section>
     <section class="form">
 
+        <div class="form-heading">
+            <h2>Become a member today</h2>
+        </div>
+
         <div class="signup-details">
             <form action="https://formdump.virtustraining.com/" method="post" class="signup-form">
 
-                <h2>Become a member today</h2>
                 <label for="fname">First Name</label>
                 <input class="text-input" id="fname" name="first_name" type="text" placeholder="John" required>
 
@@ -57,54 +60,70 @@
                 <input class="text-input" type="email" id="email" name="email_address" placeholder="johndoe@hotmail.com"
                     required>
 
-                <label for="gender">Male</label>
+                <div id="phone">
+                    <label for="phone" class="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="01234-567-890" class="form-input" required>
+
+                </div>
+
+                <label class="sex" for="gender">Male</label>
                 <input type="radio" id="gender" name="gender" value="Male" required>
-                <label for="gender">Female</label>
+                <label class="sex" for="gender">Female</label>
                 <input type="radio" id="gender" name="gender" value="Female" required>
 
-                <label for="birthday">Birthday:</label>
-                <input type="date" id="birthday" name="birthday" class="birthday" required>
-
-                <label for="phone" class="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="01234-567-890" class="form-input" required>
-
-                <h2>program</h2>
-
-                <label for="strength-training">Strength Training</label>
-                <input type="checkbox" id="strength-training" name="program" value="Strength Training">
-
-                <label for="sports-conditioning">Sports Conditioning</label>
-                <input type="checkbox" id="sports-conditioning" name="program" value="Sports Conditioning">
-
                 <br>
 
-                <label for="fitness-enhancement">Fitness Enhancement</label>
-                <input type="checkbox" id="fitness-enhancement" name="program" value="Fitness Enhancement">
+                <div class="birthday-div">
+                    <label id="birthday" for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday" class="birthdate" required>
 
-                <label for="rehabilitation">Rehabilitation</label>
-                <input type="checkbox" id="rehabilitation" name="program" value="Rehabilitation">
+                </div>
 
-                <h2>Mobility</h2>
 
-                <label for="upper-mobility">Upper Mobility</label>
-                <input type="radio" id="upper-mobility" name="mobility" value="Upper Mobility" required>
+                <div class="boxes">
+                    <h2>program</h2>
 
-                <label for="lower-mobility">Lower Mobility</label>
-                <input type="radio" id="lower-mobility" name="mobility" value="Lower Mobility" required>
+                    <label for="strength-training">Strength Training</label>
+                    <input type="checkbox" id="strength-training" name="program" value="Strength Training">
 
-                <label for="full-mobility">Full Mobility</label>
-                <input type="radio" id="full-mobility" name="mobility" value="Full Mobility" required>
+                    <label for="sports-conditioning">Sports Conditioning</label>
+                    <input type="checkbox" id="sports-conditioning" name="program" value="Sports Conditioning">
 
-                <br>
-                <input class="join-button" type="submit" value="Submit">
+                    <br>
 
+                    <label for="fitness-enhancement">Fitness Enhancement</label>
+                    <input type="checkbox" id="fitness-enhancement" name="program" value="Fitness Enhancement">
+
+                    <label for="rehabilitation">Rehabilitation</label>
+                    <input type="checkbox" id="rehabilitation" name="program" value="Rehabilitation">
+
+                    <h2>Mobility</h2>
+
+                    <label for="upper-mobility">Upper Mobility</label>
+                    <input type="radio" id="upper-mobility" name="mobility" value="Upper Mobility" required>
+
+                    <label for="lower-mobility">Lower Mobility</label>
+                    <input type="radio" id="lower-mobility" name="mobility" value="Lower Mobility" required>
+
+                    <label for="full-mobility">Full Mobility</label>
+                    <input type="radio" id="full-mobility" name="mobility" value="Full Mobility" required>
+
+                    <br>
+                    <input class="join-button" type="submit" value="Submit">
+
+                </div>
 
             </form>
         </div>
     </section>
 
     <section>
-        contact us/find us
+        <div>
+            Contact us
+        </div>
+        <div>
+            find us
+        </div>
     </section>
 
     <footer>
