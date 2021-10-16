@@ -556,3 +556,17 @@ footer {
     background-color: #FCA311;
 }
 
+/* Contact us */
+.contact-us{
+    height: 300px;
+    background-color: black;
+}
+
+.black{
+    height: 100px;
+}
+
+.info-map{
+    display: flex;
+    justify-content: space-between;
+}
