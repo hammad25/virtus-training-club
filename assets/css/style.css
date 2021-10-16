@@ -484,7 +484,7 @@ footer {
     text-align: center;
 }
 
-.form-heading{
+.form-heading {
     text-align: center;
     padding-top: 195px;
 }
@@ -516,7 +516,7 @@ footer {
     text-transform: uppercase;
 }
 
-::placeholder{
+::placeholder {
     text-align: center;
 }
 
@@ -530,43 +530,55 @@ footer {
     border-radius: 2px;
 }
 
-.text-input:hover{
+.text-input:hover {
     background-color: #FCA311;
 }
 
-.birthday-div{
+.birthday-div {
     padding: 20px;
 
 }
 
-.boxes h2{
+.boxes h2 {
     color: white;
 }
-.boxes{
+
+.boxes {
     color: black;
 }
 
-.join-button{
+.join-button {
     margin-top: 20px;
     padding: 16px 69px;
     background-color: white;
     text-transform: uppercase;
 }
-.join-button:hover{
+
+.join-button:hover {
     background-color: #FCA311;
 }
 
 /* Contact us */
-.contact-us{
-    height: 300px;
+.contact-us {
+    height: 400px;
     background-color: black;
 }
 
-.black{
-    height: 100px;
-}
-
-.info-map{
+.info-map {
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
+}
+
+.contact-card {
+    margin-left: 130px;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    line-height: 27px;
+}
+
+.maps {
+    margin-right: 160px;
+    
 }
