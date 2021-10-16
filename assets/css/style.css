@@ -469,3 +469,11 @@ footer{
     text-transform: uppercase;
     letter-spacing: 10px;
 }
+
+.form{
+    background-image: url(../images/Combat@2x.jpeg);
+    height: 880px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

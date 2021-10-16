@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,27 @@
     <meta name="description" content="Virtus Training, holistic functional mobility training club in london, England">
     <meta name="keywords"
         content="Virtus training, mobility specialists, fitness, bodybuilding, sports conditioning, rehabilitation,strength training, london,">
-        <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Virtus Training</title>
 
 </head>
+
 <body>
-    <header> 
+    <header>
         <nav>
-         <a href="./index.html">
-            <h1 id="logo">Virtus Training</h1>
-         </a>
-       
+            <a href="./index.html">
+                <h1 id="logo">Virtus Training</h1>
+            </a>
+
             <ul id="menu">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="training.html" >Training</a>
+                    <a href="training.html">Training</a>
                 </li>
                 <li>
-                    <a href="join-us.html" class="active" >Join us</a>
+                    <a href="join-us.html" class="active">Join us</a>
                 </li>
             </ul>
         </nav>
@@ -39,14 +41,40 @@
             When excuses Stop.
         </h2>
     </section>
-    <section >
-        form
+    <section class="form">
+
+        <div class="signup-details">
+            <form action="https://formdump.virtustraining.com/" method="post" class="signup-form">
+
+                <h2>Become a member today</h2>
+                <label for="fname">First Name</label>
+                <input class="text-input" id="fname" name="first_name" type="text" placeholder="John" required>
+
+                <label for="sname">Surname</label>
+                <input class="text-input" id="sname" name="sur_name" type="text" placeholder="Doe" required>
+
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" placeholder="johndoe@hotmail.com"
+                    required>
+
+                <label for="gender">Male</label>
+                <input type="radio" id="gender" name="gender" value="Male" required>
+                <label for="gender">Female</label>
+                <input type="radio" id="gender" name="gender" value="Female" required>
+
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday" class="birthday" required>
+
+                <label for="phone" class="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="01234-567-890" class="form-input" required>
+
+
+            </form>
+        </div>
     </section>
+
     <section>
-        contact us
-    </section>
-    <section>
-    
+        contact us/find us
     </section>
 
     <footer>
@@ -65,8 +93,9 @@
             </li>
         </ul>
     </footer>
-      <!--Font Awesome script-->
-      <script src="https://kit.fontawesome.com/8336cd40d6.js" crossorigin="anonymous"></script>
+    <!--Font Awesome script-->
+    <script src="https://kit.fontawesome.com/8336cd40d6.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
