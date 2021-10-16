@@ -498,13 +498,17 @@ footer {
     letter-spacing: 10px;
 }
 
+/* sign up form */
 .form {
     background-image: url(../images/Combat@2x.jpeg);
     height: 880px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgba(83, 83, 83, 0.3);
+}
+.form-heading h2{
+    text-decoration: underline;
+    text-decoration-color: #FCA311;
 }
 
 .signup-details {
@@ -514,6 +518,9 @@ footer {
     width: 36%;
     margin: 57px 31%;
     text-transform: uppercase;
+    background-color: rgba(83, 83, 83, 0.2);
+
+    
 }
 
 ::placeholder {
@@ -544,18 +551,19 @@ footer {
 }
 
 .boxes {
-    color: black;
+    color: white;
+    letter-spacing: 3px;
 }
 
 .join-button {
     margin-top: 20px;
     padding: 16px 69px;
-    background-color: white;
+    background-color:#FCA311;
     text-transform: uppercase;
 }
 
 .join-button:hover {
-    background-color: #FCA311;
+    background-color: white;
 }
 
 /* Contact us */
