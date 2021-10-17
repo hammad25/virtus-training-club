@@ -417,6 +417,8 @@ footer {
     padding: 1rem;
     height: 268px;
     opacity: 0.95;
+    background-color: rgba(83, 83, 83, 0.4);
+
 }
 
 .program-section button {
@@ -508,7 +510,8 @@ footer {
     background-size: cover;
     background-position: center;
 }
-.form-heading h2{
+
+.form-heading h2 {
     text-decoration: underline;
     text-decoration-color: #FCA311;
 }
@@ -522,7 +525,7 @@ footer {
     text-transform: uppercase;
     background-color: rgba(83, 83, 83, 0.2);
 
-    
+
 }
 
 ::placeholder {
@@ -560,7 +563,7 @@ footer {
 .join-button {
     margin-top: 20px;
     padding: 16px 69px;
-    background-color:#FCA311;
+    background-color: #FCA311;
     text-transform: uppercase;
 }
 
@@ -582,23 +585,49 @@ footer {
 
 .contact-card {
     margin-left: 130px;
-    text-align:center;
-    text-transform:uppercase;
+    text-align: center;
+    text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 27px;
 }
 
 .maps {
     margin-right: 160px;
-    
+
 }
 
 /*thank you page after submit form completion*/
-.thankyou{
-    width: 100%;
+.thankyou {
     background-image: url(../images/thankyou-background-image.jpeg);
+
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    background-color: rgba(44, 44, 44, 0.3);
+    color: white;
+    background-position: center;
+    background-color: rgba(46, 46, 46, 0.6);
+
+}
+
+#tu-overlay {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(46, 46, 46, 0.6);
+
+}
+
+.thankyou h2 {
+    text-align: center;
+    font-size: 21px;
+    padding: 96px;
+}
+
+.tu-msg {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 16px;
+  
+
 }
