@@ -592,3 +592,13 @@ footer {
     margin-right: 160px;
     
 }
+
+/*thank you page after submit form completion*/
+.thankyou{
+    width: 100%;
+    background-image: url(../images/thankyou-background-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-color: rgba(44, 44, 44, 0.3);
+}
