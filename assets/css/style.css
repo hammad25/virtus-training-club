@@ -78,13 +78,35 @@ nav {
 }
 
 
-/* Media queries for nav bar*/
+/* Media queries for nav bar medium -small screen (ipad)*/
 @media screen and (max-width:770px) {
     #menu li{
         margin-right: 56px;
         padding: 20px 20px;
     }
 }
+/* Screen iphone */
+@media screen and (max-width:375px) {
+    #logo{
+        padding: 5px;
+        margin-left: 49px;
+    }
+    #menu li{
+        margin-right: 45px;
+    padding: 0px 9px;
+    }
+   #main-text{
+       font-size: 4em;
+   }
+   #main-h4{
+       padding-left: 5px;
+   }
+   #text-button{
+       margin-left: 81px;
+   }
+}
+
+
 
 /* landing page*/
 .hero-video {
@@ -186,6 +208,16 @@ nav {
     background-color: #FCA311;
 
 }
+
+/*media query for our mission section*/
+@media screen and (max-width:375px) {
+    .our-mission {
+        background-color: black;
+        margin-top: 576px;
+        height: 596px;
+    }
+}
+
 
 /*club Virtus*/
 #club-virtus {
