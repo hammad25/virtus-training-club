@@ -77,6 +77,15 @@ nav {
     border-bottom: 1px solid #FCA311;
 }
 
+
+/* Media queries for nav bar*/
+@media screen and (max-width:770px) {
+    #menu li{
+        margin-right: 56px;
+        padding: 20px 20px;
+    }
+}
+
 /* landing page*/
 .hero-video {
     margin: 0;
@@ -144,6 +153,7 @@ nav {
     margin: 20px 117px;
 }
 
+
 /*Our mission*/
 .our-mission {
     background-color: black;
@@ -152,7 +162,7 @@ nav {
 }
 
 #mission-center {
-    padding: 50px 47px;
+    padding: 23px 47px;
     text-align: center;
     text-transform: uppercase;
     color: white;
@@ -264,6 +274,36 @@ i.far.fa-heart {
     padding-top: 40px;
 }
 
+/* Media queries */
+@media screen and (max-width:875px) {
+#club-virtus{
+    height: 1200px;
+    margin: 0 auto;
+    display: grid;
+}
+
+#left-about {
+    margin: 10px 14%;
+    padding-top: 3px;
+    width: 73%;
+    height: 355px;
+}
+#right-about{
+    margin: 10px 14%;
+    padding-top: 3px;
+    width: 73%;
+    height: 355px;
+}
+#center-about{
+    margin: 10px 14%;
+    padding-top: 3px;
+    width: 73%;
+    height: 355px;
+}  
+}
+
+
+
 /* footer */
 
 footer {
@@ -321,7 +361,7 @@ footer {
 
 .about-us h2 {
     color: white;
-    padding-top: 120px;
+    padding-top: 62px;
     padding-bottom: 20px;
     text-align: center;
 }
