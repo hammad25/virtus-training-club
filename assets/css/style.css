@@ -566,33 +566,34 @@ footer {
 
 
 /* media query for about us for smaller screens */
- @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .about-us h2 {
         font-size: 14px;
-    } 
-     #about-us-center {
+    }
+
+    #about-us-center {
         padding: 29px 50px;
         text-align: center;
         line-height: 23px;
         font-size: 16px;
-    } 
+    }
 
-     .the-team {
+    .the-team {
         height: 3500px;
-    } 
+    }
 
 
-     #theprograms {
+    #theprograms {
         margin-top: 1955px;
-    } 
+    }
 
-    html.training-page nav{
+    html.training-page nav {
         position: fixed;
         top: 0;
         width: 100%;
         overflow: hidden;
         z-index: 1;
-        
+
     }
 }
 
@@ -635,6 +636,17 @@ footer {
 #mobility h2 {
     font-size: 17px;
 }
+
+#joinnow {
+    color: black;
+    background-color: orange;
+    color: black;
+    background-color: orange;
+    padding: 18px 73px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width:) {}
 
 /* Join us page*/
 .progress {
@@ -734,7 +746,7 @@ footer {
 
 .info-map {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 50px;
 }
 
@@ -750,6 +762,49 @@ footer {
     margin-right: 160px;
 
 }
+
+/* Media Query for join us page */
+@media screen and (max-width:850px) {
+    .maps iframe{
+        width: 300px;
+    }
+    .signup-details{
+        width: 46%;
+        margin: 57px 26%;;
+    }
+    .progress h2{
+        font-size: 4em;
+    }
+
+}
+@media screen and (max-width:375px){
+    .progress h2{
+        font-size: 3em;
+    }
+    .signup-details {
+        width: 84%;
+        margin: 55px 8%;
+    }
+    .maps{
+        margin-right: 211px;
+    }
+    .maps iframe{
+        width: 150px;
+    }
+    .contact-card {
+        margin-left: 187px;
+        line-height: 25px;
+        padding: 0px 10px;
+        font-size: 12px;
+        text-align: right;
+        letter-spacing: 0px;
+    }
+    .contact-card h2{
+        font-size: medium;
+    }
+}
+
+
 
 /*thank you page after submit form completion*/
 .thankyou {
