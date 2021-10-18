@@ -517,21 +517,6 @@ footer {
     background-color: rgba(83, 83, 83, 0.4);
 }
 
-/*
-.program-section button {
-    background-color: #fca311;
-    text-align: center;
-    text-decoration: underline;
-    color: white;
-    margin-top: 441px;
-    height: 66px;
-    padding-top: -12px;
-    position: absolute;
-    width: 184px;
-    margin-left: 43%;
-    font-size: 15px;
-}*/
-
 .program-section i {
     font-size: 53px;
     padding-top: 36px;
@@ -548,7 +533,7 @@ footer {
 @media screen and (max-width: 1000px) {
     .the-team {
         display: grid;
-        grid-template-columns: repeat(auto-fit, 25rem);
+        grid-template-columns: repeat(auto-fit, 24rem);
         align-self: flex-start;
         justify-content: space-evenly;
         height: 1800px;
@@ -638,15 +623,17 @@ footer {
 }
 
 #joinnow {
-    color: black;
     background-color: orange;
     color: black;
-    background-color: orange;
     padding: 18px 73px;
     margin-top: 25px;
 }
 
-@media screen and (max-width:) {}
+@media screen and (max-width:533px) {
+    #joinnow {
+    padding: 8px 36px;
+    }
+}
 
 /* Join us page*/
 .progress {
@@ -765,32 +752,40 @@ footer {
 
 /* Media Query for join us page */
 @media screen and (max-width:850px) {
-    .maps iframe{
+    .maps iframe {
         width: 300px;
     }
-    .signup-details{
+
+    .signup-details {
         width: 46%;
-        margin: 57px 26%;;
+        margin: 57px 26%;
+        ;
     }
-    .progress h2{
+
+    .progress h2 {
         font-size: 4em;
     }
 
 }
-@media screen and (max-width:375px){
-    .progress h2{
+
+@media screen and (max-width:375px) {
+    .progress h2 {
         font-size: 3em;
     }
+
     .signup-details {
         width: 84%;
         margin: 55px 8%;
     }
-    .maps{
+
+    .maps {
         margin-right: 211px;
     }
-    .maps iframe{
+
+    .maps iframe {
         width: 150px;
     }
+
     .contact-card {
         margin-left: 187px;
         line-height: 25px;
@@ -799,7 +794,8 @@ footer {
         text-align: right;
         letter-spacing: 0px;
     }
-    .contact-card h2{
+
+    .contact-card h2 {
         font-size: medium;
     }
 }
