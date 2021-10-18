@@ -80,30 +80,34 @@ nav {
 
 /* Media queries for nav bar medium -small screen (ipad)*/
 @media screen and (max-width:770px) {
-    #menu li{
-        margin-right: 56px;
-        padding: 20px 20px;
+    #menu li {
+        padding: 20px 0px;
     }
 }
-/* Screen iphone */
-@media screen and (max-width:375px) {
-    #logo{
+
+/* Smaller screens */
+@media screen and (max-width:538px) {
+    #logo {
         padding: 5px;
         margin-left: 49px;
     }
-    #menu li{
+
+    #menu li {
         margin-right: 45px;
-    padding: 0px 9px;
+        padding: 0px 9px;
     }
-   #main-text{
-       font-size: 4em;
-   }
-   #main-h4{
-       padding-left: 5px;
-   }
-   #text-button{
-       margin-left: 81px;
-   }
+
+    #main-text {
+        font-size: 4em;
+    }
+
+    #main-h4 {
+        padding-left: 5px;
+    }
+
+    #text-button {
+        margin-left: 81px;
+    }
 }
 
 
@@ -204,7 +208,7 @@ nav {
     text-transform: uppercase;
 }
 
-#mission-center button:hover{
+#mission-center button:hover {
     background-color: #FCA311;
 
 }
@@ -308,33 +312,33 @@ i.far.fa-heart {
 
 /* Media queries */
 @media screen and (max-width:875px) {
-#club-virtus{
-    height: 1200px;
-    margin: 0 auto;
-    display: grid;
-}
+    #club-virtus {
+        height: 1200px;
+        margin: 0 auto;
+        display: grid;
+    }
 
-#left-about {
-    margin: 10px 14%;
-    padding-top: 3px;
-    width: 73%;
-    height: 355px;
-}
-#right-about{
-    margin: 10px 14%;
-    padding-top: 3px;
-    width: 73%;
-    height: 355px;
-}
-#center-about{
-    margin: 10px 14%;
-    padding-top: 3px;
-    width: 73%;
-    height: 355px;
-}  
-}
+    #left-about {
+        margin: 10px 14%;
+        padding-top: 3px;
+        width: 73%;
+        height: 355px;
+    }
 
+    #right-about {
+        margin: 10px 14%;
+        padding-top: 3px;
+        width: 73%;
+        height: 355px;
+    }
 
+    #center-about {
+        margin: 10px 14%;
+        padding-top: 3px;
+        width: 73%;
+        height: 355px;
+    }
+}
 
 /* footer */
 
@@ -373,12 +377,10 @@ footer {
     color: white;
     height: 400px;
     width: 100%;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-color: rgba(44, 44, 44, 0.3);
-    background-size: cover;
-    background-position: center;
-
 }
 
 .overlay-aboutus {
@@ -387,24 +389,36 @@ footer {
     left: 0;
     width: 100%;
     height: 400px;
-    background-color: rgba(83, 83, 83, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     mix-blend-mode: overlay;
 }
 
 .about-us h2 {
     color: white;
-    padding-top: 62px;
+    padding-top: 37px;
     padding-bottom: 20px;
     text-align: center;
+
 }
 
 #about-us-center {
     padding: 0px 130px;
     text-align: center;
-    line-height: 40px;
+    line-height: 34px;
     text-transform: uppercase;
     font-weight: 200px;
     font-size: 20px;
+
+}
+
+/*media query for about us section*/
+@media screen and (max-width:690px) {
+    .about-us h2{
+        padding-top: 20px;
+    }
+    #about-us-center{
+        font-size: 16px;
+    }
 }
 
 /*the team*/
@@ -434,16 +448,16 @@ footer {
 
 .trainer-card {
     box-shadow: 0px 2px 8px 0px #E5E5E5;
-    width: 70%;
-    max-width: 400px;
-    margin: 28px 39px;
+    width: 63%;
+    max-width: 200px;
+    margin: 28px 10%;
     padding: 20px;
     display: flex;
     flex-direction: column;
     color: white;
     text-align: center;
     padding: 1rem;
-    height: 400px;
+    height: 375px;
     opacity: 0.95;
     background-color: rgba(83, 83, 83, 0.4);
 }
@@ -452,13 +466,13 @@ footer {
     text-align: center;
     border-radius: 50%;
     border: 2px solid white;
-    width: 130px;
+    width: 67%;
     height: auto;
     margin-left: 15%;
 }
 
 .trainer-card p {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 /* Programs*/
@@ -477,27 +491,29 @@ footer {
 .program-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, 25%);
-    width: 385%;
-    margin-left: 30px;
+    width: 400%;
+    
 }
 
+.programh2{
+    font-size: 15px;
+}
 .program-card {
     box-shadow: 0px 2px 8px 0px #e5e5e5;
-    width: 80%;
+    width: 75%;
     max-width: 368px;
-    margin: 41px 43px -38px 20px;
+    margin: 41px 10% -0px 10%;
     padding: 20px;
     display: flex;
     flex-direction: column;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 5px;
     height: 288px;
     opacity: 0.95;
     background-color: rgba(83, 83, 83, 0.4);
-
 }
-
+/*
 .program-section button {
     background-color: #fca311;
     text-align: center;
@@ -510,19 +526,36 @@ footer {
     width: 184px;
     margin-left: 43%;
     font-size: 15px;
-}
+}*/
 
 .program-section i {
     font-size: 53px;
     padding-top: 36px;
     padding-bottom: 20px;
 }
-}
+
 
 .program-section h3 {
     padding-top: 46px;
+    font-size: 15px;
 }
 
+/* media query for team and program cards appear side by side side*/
+@media screen and (max-width: 1000px) {
+    .the-team{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 25rem);
+        align-self: flex-start;
+        justify-content: space-evenly;
+        height: 1800px;
+    }
+    .trainer-card {
+        margin: 28px 20%;
+    }
+    .programs-div{
+        margin-top: 962px;
+    }
+}
 /*Mobility timings*/
 #mobility {
     background-image: url(../images/Mind-and-Body@2x.jpeg);
@@ -530,6 +563,7 @@ footer {
     width: 100%;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 
 
 }
@@ -705,6 +739,6 @@ footer {
     letter-spacing: 1px;
     line-height: 20px;
     font-size: 16px;
-  
+
 
 }
