@@ -225,7 +225,7 @@ nav {
 
 /*club Virtus*/
 #club-virtus {
-    background-image: url(/assets/images/2_GYM.jpeg);
+    background-image: url(/assets/images/club-virtus-background-image.jpeg);
     height: 600px;
     display: flex;
     color: whitesmoke;
@@ -373,14 +373,13 @@ footer {
 
 /* Training section*/
 .about-us {
-    background: url(/assets/images/IMG_3090.JPG) no-repeat center center;
+    background: url(/assets/images/aboutus-background-image.jpeg) no-repeat center center;
     color: white;
     height: 400px;
     width: 100%;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-color: rgba(44, 44, 44, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .overlay-aboutus {
@@ -424,7 +423,7 @@ footer {
 
 /*the team*/
 .the-team {
-    background-image: url(/assets/images/VT-club.jpeg);
+    background-image: url(../images/theteam-program-background-image.jpeg);
     width: 100%;
     height: 1000px;
     display: grid;
@@ -586,12 +585,11 @@ footer {
 
 /*Mobility timings*/
 #mobility {
-    background-image: url(../images/Mind-and-Body@2x.jpeg);
+    background-image: url(../images/mobility-background-image.jpeg);
     height: 400px;
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 
 }
 
@@ -607,7 +605,7 @@ footer {
 
 #mobility div {
     color: white;
-    background-color: rgba(83, 83, 83, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 33.3%;
     height: 400px;
     float: left;
@@ -615,7 +613,9 @@ footer {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-    padding-top: 110px;
+    padding-top: 68px;
+    font-size: 16px;
+
 }
 
 #mobility h2 {
