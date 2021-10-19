@@ -371,6 +371,10 @@ footer {
     margin: 15px 3%;
 }
 
+.social-networks a:hover {
+    color: #FCA311;
+}
+
 /* Training section*/
 .about-us {
     background: url(/assets/images/aboutus-background-image.jpeg) no-repeat center center;

@@ -105,8 +105,34 @@ The training pages, lays out the trainers info, programs and mobility classes of
  ![Home](/assets/images/readme-team-program.png)
 
  <hr>
- 
+
   ![Home](/assets/images/readme-mobility.png)
+
+### Join us Page
+* The Join Us page starts with a motivational statement reinforcing the User to
+join Virtus either by completing the member form or thought the contact details provided below the form. A map of the clubs location is also provided to help direct users to the club. 
+
+* The Form will allow the user to become a member of Virtus, in the capacity they see fit. The personal details on the form are required for the form completion. Users however have the option to either opt for the training program or a mobility class or choose both if they wish. Once submited the user is taken to the **Thank you** page.
+
+  ![Home](/assets/images/readme-joinus.png)
+
+### Thank you Page
+
+* The thank you page is confirmation of submiting the join us form. It confirms to the user Virtus has recived their form and a member of the Virtus club will get in touch with them via the contact details the user has provided. 
+* The thank you page has the same layout of navigation bar and club details and map to maintain user experince and if hey wish to navigate back to the site they are able to.
+
+  ![Home](/assets/images/readme-thankyou.png)
+
+### Footer
+
+* The footer contains the social media links to Virtus, if the user wants to see or engage with Virtus on any of its social media platforms. The social media links open on a new browser window and are displayed thought out all pages to allow users access at any point of their Virtus journey. The social media icons turn orange when hovered over them for better user accessibility.
+
+  ![Home](/assets/images/readme-footer.png)
+
+## Future Features
+
+* 
+
 
 
 
