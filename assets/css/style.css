@@ -225,7 +225,7 @@ nav {
 
 /*club Virtus*/
 #club-virtus {
-    background-image: url(/assets/images/club-virtus-background-image.jpeg);
+    background-image: url(../images/club-virtus-background-image.jpeg);
     height: 600px;
     display: flex;
     color: whitesmoke;
@@ -377,7 +377,7 @@ footer {
 
 /* Training section*/
 .about-us {
-    background: url(/assets/images/aboutus-background-image.jpeg) no-repeat center center;
+    background: url(../images/aboutus-background-image.jpeg) no-repeat center center;
     color: white;
     height: 400px;
     width: 100%;
