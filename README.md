@@ -52,22 +52,71 @@ The training pages, lays out the trainers info, programs and mobility classes of
 
 # Wireframes 
 
-Primary mockups of my wireframes.
+* Primary mockups of my wireframes.
 
 ## Index.html 
 
 ![Index-Page](assets/images/readme-index.html.png)
 
-The home page sets the tone for the website.Providing snipets of information while providing buttons to navigate users to other sections of the website for more information.
+* The home page sets the tone for the website.Providing snipets of information while providing buttons to navigate users to other sections of the website for more information.
 
 ## Training.html 
 
 ![Training-Page](assets/images/readme-training.html.png)
 
-The training page, is presented in 4 sections. An over view of what the website offers.The team of trainers available.The types of funtional fitness programs on offer.Lastly the mobility classes and timings on offer.
-
-During development I decided to display more information on each of the programs offered when the user hovers of the program cards.
+* The training page, is presented in 4 sections. An over view of what the website offers.The team of trainers available.The types of funtional fitness programs on offer.Lastly the mobility classes and timings on offer.
+* During development I decided to display more information on each of the programs offered when the user hovers of the program cards.
 
 ## Phone And tablet Devices 
 
 ![phone/tablet](assets/images/readme-iphone-tablet.png)
+
+# Features
+
+## Existing features
+
+ #### Navigation Bar
+* The Navigation bar consists of 3 links that maintain the integral flow of the website from **Home**, **Training** and finally **Join Us** page.
+* It has a black background with sleek white font and when hovered over a link it turns an eye catching orange. When clicked the active page is underlined for enhanced user awareness.
+* The Navigation bar is fully responsive and is identical in each page to allow easy navigation on any device.
+* The **Home** links directs the user to the top of the *Landing page*
+* The **Training** link directs users to the *Training* page which informs the users of your training style, some information about our trainers at the club and the fitness and mobility programs that we offer.
+* The **join us** links directs the user to the sign up form to join the training club.
+![Navigation bar](/assets/images/readme-navigation-bar.png)
+* A further design element of the navbar is that it in the **Training** page the navbar scrolls down with the page givinhg the user extra awareness and flexibility navigating through the site.
+* The website along with the navbar maintains a responsive design on smaller devices the website *links* appear below the logo visibility and visual asthetics are maintained keeping the user expericence engaged throught out.
+  * ![Navigation bar](/assets/images/readme-responsive-navbar.png)
+<hr>
+
+#### __Home Page__
+* The landing page introduces the user to Virtus Training with 3 sections, 1st with an attention grabbing video and bold statement and with a call to action button. It sets the tone for the feel of the website; Bold, elite and determined.
+* The 2nd section clearly and simplisticly tells the user what the main goal for Virtus Training uses a call to action button to help them become a member.
+
+ ![Home](/assets/images/readme-home.png)
+* The 3rd section introduces the user to learn more about the team and the training Virtus offers and different call to actions leading to other parts of the website for a more information
+ ![Home](/assets/images/readme-club-virtus.png)
+ <hr>
+
+#### __Training Page__
+* The training page provides the user with all the relavent information in order to gain a better understand the mission, the team at virtus and solutions it offers. Fininshing the page with a call to action to join the club.
+* The teams section introduces the diverse trainers and their speciality training style in this section. The user can read their bio and get to know them further which establishes a personal connection between the user and the trainer. 
+* The program section elaborates for the different training styles offered and allows the user to select the program most suited to them.
+* The mobility section is for all mobility and functional movement ethusiasts. This section details diffrent times and skill level needed to participate in the classes.
+ ![Home](/assets/images/readme-team-program.png)
+
+ <hr>
+ 
+  ![Home](/assets/images/readme-mobility.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
