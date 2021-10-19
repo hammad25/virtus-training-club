@@ -131,7 +131,11 @@ join Virtus either by completing the member form or thought the contact details 
 
 ## Future Features
 
-* 
+* Virtus would like to expand its mobility classess so a self online booking page where users can see which classes have avalibility and book a spot.
+
+* A subscribe pop up section where new uesrs can enter their emails and sign up for the latest classes, programs and club updates
+
+* A Journal section with all the latest joint/mobility workouts, lifestyle and nutrition recipies.
 
 
 
