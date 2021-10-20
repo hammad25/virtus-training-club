@@ -50,6 +50,7 @@ nav {
     line-height: 20px;
 }
 
+/* sets the margin and padding for nav bar*/
 #menu li {
     display: flex;
     justify-content: space-around;
@@ -636,7 +637,7 @@ footer {
 
 @media screen and (max-width:533px) {
     #joinnow {
-    padding: 8px 36px;
+        padding: 8px 36px;
     }
 }
 
@@ -649,7 +650,7 @@ footer {
 
 .form-heading {
     text-align: center;
-    padding-top: 195px;
+    padding-top: 202px;
 }
 
 .progress h2 {
@@ -663,7 +664,7 @@ footer {
 
 /* sign up form */
 .form {
-    background-image: url(../images/signup-form.background-image.jpeg);
+    background-image: url(../images/signup-form-background-image.jpg);
     height: 880px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -680,11 +681,9 @@ footer {
     text-align: center;
     color: white;
     width: 36%;
-    margin: 57px 31%;
+    margin: 9px 31%;
     text-transform: uppercase;
-    background-color: rgba(83, 83, 83, 0.2);
-
-
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 ::placeholder {
@@ -705,18 +704,30 @@ footer {
     background-color: #FCA311;
 }
 
+.phoneno {
+    margin-bottom: 10px;
+}
+
+.fsex {
+    padding-left: 27px;
+}
+
 .birthday-div {
     padding: 20px;
-
 }
 
 .boxes h2 {
     color: white;
+    text-align: center;
+    font-size: 17px;
+
 }
 
 .boxes {
     color: white;
     letter-spacing: 3px;
+    text-align: left;
+    margin: 0px 120px;
 }
 
 .join-button {
@@ -728,6 +739,21 @@ footer {
 
 .join-button:hover {
     background-color: white;
+}
+
+/* Media Query for sign up form*/
+@media screen and (max-width:1200px) {
+    .boxes h2 {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .boxes{
+        letter-spacing: 2px;
+    text-align: left;
+    margin: -3px 53px;
+    line-height: 16px;
+    }
+
 }
 
 /* Contact us */
@@ -780,7 +806,7 @@ footer {
 
     .signup-details {
         width: 84%;
-        margin: 55px 8%;
+        margin: 30px 8%;
     }
 
     .maps {

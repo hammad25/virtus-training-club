@@ -48,6 +48,7 @@
         </div>
 
         <div class="signup-details">
+            <!--A sign-up form for user to become a member  -->
             <form action="thankyou.html" method="get" class="signup-form">
 
                 <label for="fname">First Name</label>
@@ -60,15 +61,17 @@
                 <input class="text-input" type="email" id="email" name="email_address" placeholder="johndoe@hotmail.com"
                     required>
 
-                <div id="phone">
+                <div class="phoneno">
                     <label for="phone" class="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" placeholder="01234-567-890" class="form-input" required>
+                    <input type="tel" id="phone" name="phone" placeholder="01234-567-890"
+                        pattern="[0-8]{3}-[0-9]{3}-[0-9]{4}" class="form-input" required>
 
                 </div>
 
+
                 <label class="sex" for="gender">Male</label>
                 <input type="radio" id="gender" name="gender" value="Male" required>
-                <label class="sex" for="gender">Female</label>
+                <label class="fsex" for="gender">Female</label>
                 <input type="radio" id="gender" name="gender" value="Female" required>
 
                 <br>
@@ -82,34 +85,30 @@
 
                 <div class="boxes">
                     <h2>program</h2>
-
-                    <label for="strength-training">Strength Training</label>
                     <input type="checkbox" id="strength-training" name="program" value="Strength Training">
-
-                    <label for="sports-conditioning">Sports Conditioning</label>
-                    <input type="checkbox" id="sports-conditioning" name="program" value="Sports Conditioning">
-
+                    <label for="strength-training">Strength Training</label>
                     <br>
-
-                    <label for="fitness-enhancement">Fitness Enhancement</label>
+                    <input type="checkbox" id="sports-conditioning" name="program" value="Sports Conditioning">
+                    <label for="sports-conditioning">Sports Conditioning</label>
+                    <br>
                     <input type="checkbox" id="fitness-enhancement" name="program" value="Fitness Enhancement">
-
-                    <label for="rehabilitation">Rehabilitation</label>
+                    <label for="fitness-enhancement">Fitness Enhancement</label>
+                    <br>
                     <input type="checkbox" id="rehabilitation" name="program" value="Rehabilitation">
+                    <label for="rehabilitation">Rehabilitation</label>
 
                     <h2>Mobility</h2>
-
-                    <label for="upper-mobility">Upper Mobility</label>
                     <input type="radio" id="upper-mobility" name="mobility" value="Upper Mobility" required>
-
-                    <label for="lower-mobility">Lower Mobility</label>
+                    <label for="upper-mobility">Upper Mobility</label>
+                    <br>
                     <input type="radio" id="lower-mobility" name="mobility" value="Lower Mobility" required>
-
-                    <label for="full-mobility">Full Mobility</label>
+                    <label for="lower-mobility">Lower Mobility</label>
+                    <br>
                     <input type="radio" id="full-mobility" name="mobility" value="Full Mobility" required>
-
+                    <label for="full-mobility">Full Mobility</label>
                     <br>
                     <button class="join-button">Submit</button>
+                    <br>
                 </div>
             </form>
         </div>
