@@ -1,4 +1,7 @@
 # Virtus Training
+
+[live link](https://hammad25.github.io/virtus-training-club/)
+
 In this project I have created a new website for a functional fitness training club in the city of London. The website is designed to encompass the love of fitness with safe practices for healthy joints and over-all dynamic mobility that often is lacking in static weight-lifting. The website emphasises that all the trainers at Virtus are joint/mobility specilists so programs/classes will include fun and challanging dynamic movements. 
 
 The site will target those individuals who seek to establish a community of fitness lovers that do not want to compromise on their joint health/mobility in the long run whilst working out. Virtus training will be usefull for all users who are new to functional fitness and are looking for more information as well as those fitness ethusiasts looking for a local funtional fitness community to be apart of.
@@ -49,7 +52,7 @@ The training pages, lays out the trainers info, programs and mobility classes of
 
 # Wireframes 
 
-* Primary mockups of my wireframes.
+* [Balsamiq](https://balsamiq.com/) was used to create the wireframes and here are the primary mock ups.
 
 ## Index.html 
 
@@ -160,6 +163,7 @@ continously able to test the websit accesibility.
 
 #### Testing Navbar
 * Testing fixed navbar for smaller decvies i.e Iphone
+
  ![Navigation bar](/assets/images/readme-responsive-navbar.png)
 
 ### Code Validation
@@ -177,8 +181,6 @@ continously able to test the websit accesibility.
 ### Lighthouse
   ![Home](/documentation/readme-accessibility.png)
 
-
-
 #### Test case
 * I featured the website landing page on various interactive platforms and all invloved users after access the landing page concluded this website clearly demonstartes a training club giving a functional approch to fitness and priportizing joint/mobility health.
 
@@ -191,6 +193,30 @@ continously able to test the websit accesibility.
  #### Supported Screen and browsers
  * I tested the site responsiveness by using Dev tools in **Chrome Simulator** 
  * The primary smaller device sizes that were tested for were Ipad, Iphone X.
+
+## Deployment
+#### Via gitpod
+* In the terminal command line "python3 -m http.server" then click open browser.
+
+#### Via github pages
+* The site was deployed to GitHub pages. The steps taken to deploy are as follows:
+* In the GitHub repository, Settings tab;source section drop-down menu, select the Master Branch.
+* The live link can be found here -  https://hammad25.github.io/virtus-training-club/
+
+## Credits 
+* Thanks to Rohit Sharma, my mentor for his guidance, industry insights and reassurance through the process and pointing me in the right direction.
+* The Slack community for support and and feedback was invaluable.
+* Balsamiq was used to create the wireframes.
+* [Coolors](https://coolors.co/) - Used to create my colour palette.
+
+#### Content
+* The text was taken from various fitness websites and articles [Functional fitness](https://www.opexfit.com/blog/what-is-functional-fitness)
+
+* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+* The photos/video used were taken from [pexels](https://www.pexels.com/) and [Google](https://www.google.com/search?q=luxury+gyms+images&rlz=1C5CHFA_enGB949GB949&hl=en&sxsrf=AOaemvKQmSRGrtQp-nlBnFiE_Z4DZrso4g:1634747574800&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjVjPijtdnzAhUAgf0HHbVRCdIQ_AUoAXoECAEQAw&biw=1537&bih=868&dpr=1#imgrc=GJfrqxLniaVpfM)
+
 
  
 
