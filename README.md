@@ -80,6 +80,8 @@ The training pages, lays out the trainers info, programs and mobility classes of
 * The **Training** link directs users to the *Training* page which informs the users of your training style, some information about our trainers at the club and the fitness and mobility programs that we offer.
 * The **join us** links directs the user to the sign up form to join the training club.
 ![Navigation bar](/assets/images/readme-navigation-bar.png)
+
+## Future features
 * A further design element of the navbar is that it in the **Training** page the navbar scrolls down with the page givinhg the user extra awareness and flexibility navigating through the site.
 * The website along with the navbar maintains a responsive design on smaller devices the website *links* appear below the logo visibility and visual asthetics are maintained keeping the user expericence engaged throught out.
 <hr>
@@ -171,6 +173,10 @@ continously able to test the websit accesibility.
 * CSS Validating was done in [CSS Validator](https://jigsaw.w3.org/css-validator/)
 * No errors were returned.
    * [CSS Validation](/documentation/readme-CSS-validator.png)
+
+### Lighthouse
+  ![Home](/documentation/readme-accessibility.png)
+
 
 
 #### Test case
