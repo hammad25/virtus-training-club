@@ -3,6 +3,9 @@ In this project I have created a new website for a functional fitness training c
 
 The site will target those individuals who seek to establish a community of fitness lovers that do not want to compromise on their joint health/mobility in the long run whilst working out. Virtus training will be usefull for all users who are new to functional fitness and are looking for more information as well as those fitness ethusiasts looking for a local funtional fitness community to be apart of.
 
+![website](assets/images/readme-responsive.png)
+
+
 ## User Stories
 * I identified 2 groups of user for this site, firstly, users that are new to funtional fitness and looking for more detailed information. Secondly, existing mobility/funtional fitness enthusiasts who are looking to join a local traning club.
     * ### New Users
@@ -85,7 +88,6 @@ The training pages, lays out the trainers info, programs and mobility classes of
 ![Navigation bar](/assets/images/readme-navigation-bar.png)
 * A further design element of the navbar is that it in the **Training** page the navbar scrolls down with the page givinhg the user extra awareness and flexibility navigating through the site.
 * The website along with the navbar maintains a responsive design on smaller devices the website *links* appear below the logo visibility and visual asthetics are maintained keeping the user expericence engaged throught out.
-  * ![Navigation bar](/assets/images/readme-responsive-navbar.png)
 <hr>
 
 #### __Home Page__
@@ -136,6 +138,37 @@ join Virtus either by completing the member form or thought the contact details 
 * A subscribe pop up section where new uesrs can enter their emails and sign up for the latest classes, programs and club updates
 
 * A Journal section with all the latest joint/mobility workouts, lifestyle and nutrition recipies.
+
+## Technology
+*  [HTML:](https://www.w3.org/html/)  - HTMl5 provided the content and the structure for the project. HTML was used to build the UI.
+
+* [CSS:](https://www.w3.org/Style/CSS/) - CSS was used to style.CSS was used to manage the UI.
+
+* [Git](https://git-scm.com/) - Git was used to manage the code. Allowing me to create backups whenever significant changes were made to code by utilizing the gitpod terminal to commit to Git and Push to GitHub.
+
+* [GitHub:](https://github.com/) - GitHub was used to externally store repository and site deployment.
+## Testing
+Throughtput this project I have carried out regular testing. Through live server and Chrome deverloper tools I was continously able to test the websit accesibility. 
+
+#### Testing the links
+* Testing all internal links connected to different pages of the website **Home**, **Training** and **Join us**.
+* Testing external links, the social media links whether they were indeed opening in new brower windows.
+
+#### Testing the Form
+* Testing to see all required fields were required for form submition. An error would appear if e.g Name was not entered or the correct telphone number patterns were not entered. T
+* Testing the Submit button.
+
+  ![Home](/assets/images/readme-form-testing.png)
+
+
+#### Testing Navbar
+* Testing fixed navbar for smaller decvies i.e Iphone
+ ![Navigation bar](/assets/images/readme-responsive-navbar.png)
+
+### Code Validation
+* HTML validating was done in ![W3C Validator](https://validator.w3.org/)
+
+
 
 
 
