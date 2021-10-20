@@ -166,7 +166,17 @@ Throughtput this project I have carried out regular testing. Through live server
  ![Navigation bar](/assets/images/readme-responsive-navbar.png)
 
 ### Code Validation
-* HTML validating was done in ![W3C Validator](https://validator.w3.org/)
+* HTML validating was done in [W3C Validator](https://validator.w3.org/)
+* All pages were tested throught W3C HTML validator and passed.
+   * [index.html Validation](/documentation/readme-index.html-validation.png)
+   * [training.html Validation](/documentation/readme-training.html-validation.png)
+   * [joinus.html Validation](/documentation/readme-joinus.html-validation.png)
+   * [thankyou.html Validation](/documentation/readme-thankyou.html-validation.png)
+
+
+
+
+
 
 
 
