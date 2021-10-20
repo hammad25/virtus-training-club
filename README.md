@@ -7,21 +7,15 @@ The site will target those individuals who seek to establish a community of fitn
 
 
 ## User Stories
-* I identified 2 groups of user for this site, firstly, users that are new to funtional fitness and looking for more detailed information. Secondly, existing mobility/funtional fitness enthusiasts who are looking to join a local traning club.
-    * ### New Users
-        * Should be able to quickly gain an overview of what the training club is about via the landing page.
-        * Should be able to see who the trainers are that lead the training programs.
-        * Should be able to see what fitness programs and mobility classes are offered at the training club.
-        * Should be able to identify what level of experience is required to take a specific class.
-        * Should be able to get detailed information on times classes are held.
-        * Should be able to contact the club and make a booking or find out further information.
-        <hr>
-    * ### Existing Users
-        * Should be able to do all the above.
-        * Should be able to enhance their funtional fitness goals.
-        * Should be able to gain an understanding of the core values of the traing club.
-        * Should be able to access social media platforms and engage with the broader community.
-        <hr>
+* The Website target user is interested in functional fitness and looking to join a local club.
+   * Should be able to quickly gain an overview of what the training club is about via the landing page.
+   * Should be able to see who the trainers are that lead the training programs.
+   * Should be able to see what fitness programs and mobility classes are offered at the training club.
+   * Should be able to identify what level of experience is required to take a specific class.
+   * Should be able to get detailed information on times classes are held.
+   * Should be able to contact the club and make a booking or find out further information.
+   * Should be able to access social media platforms and engage with the broader community.
+     <hr>
 
 # Design
 ## Layout:
@@ -94,7 +88,6 @@ The training pages, lays out the trainers info, programs and mobility classes of
 * The landing page introduces the user to Virtus Training with 3 sections, 1st with an attention grabbing video and bold statement and with a call to action button. It sets the tone for the feel of the website; Bold, elite and determined.
 * The 2nd section clearly and simplisticly tells the user what the main goal for Virtus Training uses a call to action button to help them become a member.
 
- ![Home](/assets/images/readme-home.png)
 * The 3rd section introduces the user to learn more about the team and the training Virtus offers and different call to actions leading to other parts of the website for a more information
  ![Home](/assets/images/readme-club-virtus.png)
  <hr>
@@ -147,8 +140,11 @@ join Virtus either by completing the member form or thought the contact details 
 * [Git](https://git-scm.com/) - Git was used to manage the code. Allowing me to create backups whenever significant changes were made to code by utilizing the gitpod terminal to commit to Git and Push to GitHub.
 
 * [GitHub:](https://github.com/) - GitHub was used to externally store repository and site deployment.
+
+
 ## Testing
-Throughtput this project I have carried out regular testing. Through live server and Chrome deverloper tools I was continously able to test the websit accesibility. 
+Throughtput this project I have carried out regular testing. Through live server and Chrome deverloper tools I was 
+continously able to test the websit accesibility. 
 
 #### Testing the links
 * Testing all internal links connected to different pages of the website **Home**, **Training** and **Join us**.
@@ -160,18 +156,41 @@ Throughtput this project I have carried out regular testing. Through live server
 
   ![Home](/assets/images/readme-form-testing.png)
 
-
 #### Testing Navbar
 * Testing fixed navbar for smaller decvies i.e Iphone
  ![Navigation bar](/assets/images/readme-responsive-navbar.png)
 
 ### Code Validation
 * HTML validating was done in [W3C Validator](https://validator.w3.org/)
-* All pages were tested throught W3C HTML validator and passed.
+* No errors were returned when passing through the official W3C HTML validator .
    * [index.html Validation](/documentation/readme-index.html-validation.png)
    * [training.html Validation](/documentation/readme-training.html-validation.png)
    * [joinus.html Validation](/documentation/readme-joinus.html-validation.png)
    * [thankyou.html Validation](/documentation/readme-thankyou.html-validation.png)
+   <br>
+* CSS Validating was done in [CSS Validator](https://jigsaw.w3.org/css-validator/)
+* No errors were returned.
+   * [CSS Validation](/documentation/readme-CSS-validator.png)
+
+
+#### Test case
+* I featured the website landing page on various interactive platforms and all invloved users after access the landing page concluded this website clearly demonstartes a training club giving a functional approch to fitness and priportizing joint/mobility health.
+
+ ![Home](/assets/images/readme-home.png)
+
+ ### Fixed bugs
+ * I encountered a "The element button must not appear as a descendant of the a element." error message when running HTML validation. 
+ * To solve this issue I replaced the a element with a form element.
+
+ #### Supported Screen and browsers
+ * I tested the site responsiveness by using Dev tools in **Chrome Simulator** 
+ * The primary smaller device sizes that were tested for were Ipad, Iphone X.
+
+ 
+
+
+
+
 
 
 

@@ -64,7 +64,6 @@ nav {
 #menu a {
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: none;
     text-decoration: none;
     color: white;
 }
@@ -89,12 +88,12 @@ nav {
 /* Smaller screens */
 @media screen and (max-width:538px) {
     #logo {
-        padding: 5px;
-        margin-left: 49px;
+        padding: 2px;
+        margin-left: 7px;
     }
 
     #menu li {
-        margin-right: 45px;
+        margin-right: 29px;
         padding: 0px 9px;
     }
 
@@ -127,7 +126,6 @@ nav {
     align-items: center;
     color: white;
     z-index: 2;
-
 }
 
 .hero-video video {
@@ -342,7 +340,6 @@ i.far.fa-heart {
 }
 
 /* footer */
-
 footer {
     background-color: black;
     height: 60px;
@@ -410,7 +407,6 @@ footer {
     text-align: center;
     line-height: 34px;
     text-transform: uppercase;
-    font-weight: 200px;
     font-size: 20px;
 
 }
@@ -517,7 +513,7 @@ footer {
     color: white;
     text-align: center;
     padding: 5px;
-    height: 288px;
+    height: 310px;
     opacity: 0.95;
     background-color: rgba(83, 83, 83, 0.4);
 }
@@ -553,8 +549,6 @@ footer {
     }
 }
 
-
-
 /* media query for about us for smaller screens */
 @media screen and (max-width: 767px) {
     .about-us h2 {
@@ -583,11 +577,8 @@ footer {
         width: 100%;
         overflow: hidden;
         z-index: 1;
-
     }
 }
-
-
 
 /*Mobility timings*/
 #mobility {
@@ -625,7 +616,7 @@ footer {
 }
 
 #mobility h2 {
-    font-size: 17px;
+    font-size: 13px;
 }
 
 #joinnow {
@@ -720,7 +711,6 @@ footer {
     color: white;
     text-align: center;
     font-size: 17px;
-
 }
 
 .boxes {
@@ -796,7 +786,6 @@ footer {
     .progress h2 {
         font-size: 4em;
     }
-
 }
 
 @media screen and (max-width:375px) {
@@ -831,8 +820,6 @@ footer {
     }
 }
 
-
-
 /*thank you page after submit form completion*/
 .thankyou {
     background-image: url(../images/thankyou-background-image.jpeg);
@@ -844,14 +831,12 @@ footer {
     color: white;
     background-position: center;
     background-color: rgba(46, 46, 46, 0.6);
-
 }
 
 #tu-overlay {
     width: 100%;
     height: 600px;
     background-color: rgba(46, 46, 46, 0.6);
-
 }
 
 .thankyou h2 {
@@ -865,6 +850,4 @@ footer {
     letter-spacing: 1px;
     line-height: 20px;
     font-size: 16px;
-
-
 }
