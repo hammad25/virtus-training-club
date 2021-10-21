@@ -208,10 +208,13 @@ continuously able to test the websit accessibility.
 * Thanks to Rohit Sharma, my mentor for his guidance, industry insights, and reassurance through the process and pointing me in the right direction.
 * The Slack community for support and feedback was invaluable.
 * Balsamiq was used to create the wireframes.
+* The Code institute love running and [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns) helped me with my code.
 * [Coolors](https://coolors.co/) - Used to create my colour palette.
+* [font Awesome](https://fontawesome.com/) for the variours icons.
 
 #### Content
 * The text was taken from various fitness websites and articles [Functional fitness](https://www.opexfit.com/blog/what-is-functional-fitness)
+
 
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
