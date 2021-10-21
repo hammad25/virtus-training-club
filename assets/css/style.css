@@ -566,17 +566,24 @@ footer {
         height: 3500px;
     }
 
-
     #theprograms {
         margin-top: 1955px;
     }
 
-    html.training-page nav {
+    nav {
         position: fixed;
         top: 0;
         width: 100%;
         overflow: hidden;
-        z-index: 1;
+        z-index: 20;
+    }
+
+    .hero-video {
+        position: unset;
+    }
+
+    .our-mission {
+        margin-top: 0px;
     }
 }
 
