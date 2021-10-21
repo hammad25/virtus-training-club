@@ -1,6 +1,7 @@
 # Virtus Training
 
-[live link](https://hammad25.github.io/virtus-training-club/)
+* [live link](https://hammad25.github.io/virtus-training-club/) of the project
+
 In this project, I have created a new website for a functional fitness training club in the city of London. The website is designed to encompass the love of fitness with safe practices for healthy joints and overall dynamic mobility that often is lacking in static weight-lifting. The website emphasizes that all the trainers at Virtus are joint/mobility specialists so programs/classes will include fun and challenging dynamic movements.
 The site will target those individuals who seek to establish a community of fitness lovers that do not want to compromise on their joint health/mobility in the long run whilst working out. Virtus training will be useful for all users who are new to functional fitness and are looking for more information as well as those fitness enthusiasts looking for a local functional fitness community to be a part of.
 
@@ -86,8 +87,8 @@ sign up page.
 * The **join us** links direct the user to the sign up form to join the training club.
 ![Navigation bar](/assets/images/readme-navigation-bar.png)
 
-* A further design element of the navbar is that it in the **Training** page the navbar scrolls down with the page giving the user extra awareness and flexibility navigating through the site.
-* The website along with the navbar maintains a responsive design on smaller devices the website *links* appear below the logo visibility and visual aesthetics are maintained keeping the user experience engaged throught out.
+* A further design element of the navbar is that at smaller screen sizes in the navbar scrolls down with the page giving the user extra awareness and flexibility navigating through the site.
+* The website along with the navbar maintains a responsive design on smaller devices the website *links* appear below the logo. Visibility and visual aesthetics are maintained keeping the user experience engaged throught out.
 <hr>
 
 #### __Home Page__
