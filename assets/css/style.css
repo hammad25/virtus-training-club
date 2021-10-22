@@ -728,7 +728,7 @@ footer {
 }
 
 .join-button {
-    margin-top: 20px;
+    margin: 20px 100px;
     padding: 16px 69px;
     background-color: #FCA311;
     text-transform: uppercase;
@@ -736,6 +736,10 @@ footer {
 
 .join-button:hover {
     background-color: white;
+}
+
+.join-button button{
+    background-color: #FCA311;
 }
 
 /* Media Query for sign up form*/
@@ -825,6 +829,10 @@ footer {
     .contact-card h2 {
         font-size: medium;
     }
+
+    #joinnow {
+        margin: 23px 5px;
+    }
 }
 
 /*thank you page after submit form completion*/
@@ -857,4 +865,41 @@ footer {
     letter-spacing: 1px;
     line-height: 20px;
     font-size: 16px;
+}
+
+
+
+
+/* media queries */
+@media screen and (max-width:1024px) {
+
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: 20;
+    }
+
+    .hero-video {
+        position: unset;
+    }
+
+    .our-mission {
+        margin-top: 0px;
+    }
+
+    .progress h2 {
+        padding-top: 14%;
+    }
+    
+    #about-us-center{
+        font-size: 17px;
+    }
+    
+    .about-us h2 {
+        padding-top: 73px;
+        padding-bottom: 5px;
+    }
+
 }
