@@ -9,13 +9,19 @@ The site will target those individuals who seek to establish a community of fitn
 
 
 ## User Stories
+### Home page
 * The Website target user is interested in functional fitness and looking to join a local club.
-* Should be able to quickly gain an overview of what the training club is about via the landing page.
-* Should be able to see who the trainers are that lead the training programs.
+* Should be able to gain an overview of what the training club is about via the landing page.
+
+### Training page
+* Should be able to see who the trainers are at Virtus.
 * Should be able to see what fitness programs and mobility classes are offered at the training club.
 * Should be able to identify what level of experience is required to take a specific class.
 * Should be able to get detailed information on times classes are held.
+
+### Join Us page
 * Should be able to contact the club and make a booking or find out further information.
+* Should be able to get club contact details and mao location.
 * Should be able to access social media platforms and engage with the broader community.
      <hr>
 
@@ -104,11 +110,7 @@ sign up page.
 * The teams section introduces the diverse trainers and their speciality training style in this section. The user can read their bio and get to know them further which establishes a personal connection between the user and the trainer. 
 * The program section elaborates for the different training styles offered and allows the user to select the program most suited to them.
 * The mobility section is for all mobility and functional movement enthusiasts. This section details different times and skill levels needed to participate in the classes.
- ![Home](/assets/images/readme-team-program.png)
 
- <hr>
-
-  ![Home](/assets/images/readme-mobility.png)
 
 ### Join us Page
 * The Join Us page starts with a motivational statement reinforcing the User to
@@ -153,20 +155,43 @@ join Virtus either by completing the membership form or through the contact deta
 Throughout this project, I have carried out regular testing. Through live server and Chrome deverloper tools I was 
 continuously able to test the websit accessibility. 
 
+### Home page
+* I featured the website landing page on various interactive platforms and all involved users  concluded from the landing page, this website clearly demonstrates a training club giving a functional approach to fitness and prioritizing joint/mobility health.
+
+ ![Home](/assets/images/readme-home.png)
+
+ ### Training page
+ * The training page gives clear and consice trainers bio and their field of speciality
+ * Provides an overview of the general training programs offered by Virtus.
+ * The mobility section split into upper, lower and full body mobility gives class times and skill level required to attend
+ * Call to action button to join Virtus.
+
+  ![Home](/assets/images/readme-team-program.png)
+
+ <hr>
+
+  ![Home](/assets/images/readme-mobility.png)
+
+### Join us page
+* Provides a sign-up form to get in touch with Virtus. Form completion requires mandatory Name, Surman, Email, Contact no, Date of birth to be filled in for submition.
+* Shows Virtus contact details, address, telephone contact number and email for all users to get in touch with.
+
+  #### Testing the Form
+  * Testing to see all required fields were required for form submission. An error would appear if e.g Name was not entered or the correct telephone number patterns were not entered. T
+  * Testing the Submit button.
+
+  ![Home](/assets/images/readme-form-testing.png)
+
+
 #### Testing the links
 * Testing all internal links connected to different pages of the website **Home**, **Training** and **Join us**.
 * Testing external links, the social media links whether they were indeed opening in new browser windows.
-
-#### Testing the Form
-* Testing to see all required fields were required for form submission. An error would appear if e.g Name was not entered or the correct telephone number patterns were not entered. T
-* Testing the Submit button.
-
-  ![Home](/assets/images/readme-form-testing.png)
 
 #### Testing Navbar
 * Testing fixed navbar for smaller decvies i.e Iphone
 
  ![Navigation bar](/assets/images/readme-responsive-navbar.png)
+
 
 ### Code Validation
 * HTML validating was done in [W3C Validator](https://validator.w3.org/)
@@ -183,10 +208,6 @@ continuously able to test the websit accessibility.
 ### Lighthouse
   ![Home](/documentation/readme-accessibility.png)
 
-#### Test case
-* I featured the website landing page on various interactive platforms and all involved users after access the landing page concluded this website clearly demonstrates a training club giving a functional approach to fitness and prioritizing joint/mobility health.
-
- ![Home](/assets/images/readme-home.png)
 
  ### Fixed bugs
  * I encountered a "The element button must not appear as a descendant of the a element." error message when running HTML validation. 
@@ -198,6 +219,7 @@ continuously able to test the websit accessibility.
 
 ## Deployment
 #### Via gitpod
+* Open (Github)[https://github.com/hammad25/virtus-training-club] repository and press **Gitpod** to launch
 * In the terminal command line "python3 -m http.server" then click open browser.
 
 #### Via github pages
